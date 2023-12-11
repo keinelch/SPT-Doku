@@ -1,0 +1,33 @@
+\documentclass[
+  % die Schriftgröße - sollten Sie nicht ändern
+  fontsize=12pt,
+  % das Papierformat, also DIN A4
+  paper=A4,
+  % Literaturverzeichnis ins Inhaltsverzeichnis
+  bibliography=totoc,
+  % andere Verzeichnisse ebenfalls ins Inhaltsverzeichnis
+  listof=totoc,
+  % abgesetzte Formeln linksbündig
+  fleqn,
+  % für die Satzspiegelkonstruktion - siehe KOMA-Doku
+  DIV=12,
+  % Bindekorrektur (linker Rand) - evtl. anpassen
+  BCOR=1mm,
+  % die im Text verwendeten Sprachen (u.a. für das Paket babel); die
+  % letztgenannte (!) Sprache ist die Standardsprache; "n"german steht für die
+  % neue Rechtschreibung
+  english,ngerman,
+  % weil (s.u.) das Paket geometr verwendet wird
+  usegeometry,
+  % wie Absätze gesetzt werden: ohne Einzug, halbe Zeile Abstand
+  parskip=half-
+]{scrreprt}
+
+
+\input{defs}
+
+\begin{document}
+\include{Titel}
+\include{toc}
+\include{appendix}
+\end{document}

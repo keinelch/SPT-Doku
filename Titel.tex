@@ -1,0 +1,74 @@
+\begin{titlepage}
+    % andere Seitenränder als im Rest der Arbeit
+    \newgeometry{lmargin=2cm,tmargin=7mm,rmargin=5mm,bmargin=1cm}
+    % die "Hausfarbe" der HAW; diese und die folgenden Einstellungen sind lokal
+    % und gelten nur innerhalb der Umgebung "titlepage"
+    \color{haw}
+    % Blocksatz für die Titelseite deaktivieren
+    \raggedright
+    % Logo rechtsbündig setzen
+    \hfill\includegraphics[width=7cm]{HSB.png}\\
+  
+    % vertikaler Abstand
+    \vspace{5cm}
+  
+    % Wahl der "Hausschrift" Open Sans der HAW, die als Schrift auf Ihrem
+    % Rechner installiert sein muss
+    \setmainfont{Open Sans}
+    % etwas kleiner als üblich
+    \small
+    % fett und in Majuskeln
+    \textbf{DOKUMENTATION}
+  
+    % vertikaler Abstand
+    \vspace{8mm}
+  
+    % der Titel der Arbeit als "Seite in der Seite"; natürlich müssen Sie hier
+    % Ihren Titel eintragen
+    \begin{minipage}{0.8\linewidth}
+      % Wahle der zweiten "Hausschrift" der HAW, die ebenfalls auf Ihrem Rechner
+      % bereits vorhanden sein muss
+      % ziemlich große Schrift
+      \LARGE
+      % [1mm] steht jeweils für einen etwas größeren Durchschuss
+      AUFGABE 3:\\[1mm]
+      Simulation einer Gleichstrommaschine\\[1mm]
+      % am Ende noch ein waagerechter Strich, das CD will es so...
+      \,\rule{11mm}{1.2mm}
+    \end{minipage}
+  
+    % vertikaler Abstand, überraschenderweise
+    \vspace{1cm}
+  
+    % hier korrektes Datum und Ihren Namen eingeben
+    Dezember 2023\\
+    Farshid Abdehgah \\
+    Darius Daub
+  
+    % letzter vertikaler Abstand für heute
+    \vspace{5cm}
+  
+    % noch eine "Seite in der Seite", etwas nach rechts geschoben
+    \hspace*{37mm}
+    \begin{minipage}{0.5\linewidth}
+      % Namen und Titel der beiden Prüfer eintragen
+      \begin{tabular}{@{}l}
+        Lehrender: Prof.\ Dr.\ Christian Mehler \\
+        Anwendungen der Leistungselektronik  \\
+        Master Energietechnik \\
+      \end{tabular}\\
+  
+      % noch ein horizontaler Strich
+      \,\rule{9mm}{1mm}\\[1.5mm]
+  
+      \textbf{HOCHSCHULE BREMEN}\\
+      \textbf{CITY UNIVERSITY OF APPLIED SCIENCES}\\
+      Fakultät Natur und Technik\\
+      Abteilung Maschinenbau\\
+    \end{minipage}
+  \end{titlepage}
+  % setzt die Geometrie wieder auf die Standardwerte zurück
+  \restoregeometry
+  % für die Seite mit dem Abstract keine Seitenzahl ausgeben
+  \thispagestyle{empty}
+  

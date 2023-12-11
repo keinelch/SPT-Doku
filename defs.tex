@@ -1,0 +1,187 @@
+%Versuch eine Grafik zu erstellen
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{siunitx}
+\usepackage{pgf-spectra}
+\usepackage{pgfplots}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+%Zum Zentrieren von Tabellen-Captions
+\usepackage[justification=centering]{caption}
+
+% Beschriftungen für Tabellen kommen linksbündig über die Tabelle
+\KOMAoption{captions}{tableheading,nooneline}
+\setcaptionalignment[figure]{c}
+\setcaptionalignment[table]{l}
+
+%Für das einbinden von Code
+\usepackage{listings}
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt}
+\lstset{language=Perl}
+
+% wird für die Titelseite benötigt
+\usepackage{geometry}
+
+% wird für die Nutzung der Hausschrift benötigt
+\usepackage{fontspec}
+
+% Standardpaket für Lokalisation, siehe Option "ngerman" oben
+\usepackage{babel}
+% Laden von optimierten Trennmustern
+\babelprovide[hyphenrules=ngerman-x-latest]{ngerman}
+
+% Standardpaket für mathematische Zusatzfunktionen; wenn Sie keine
+% mathematischen Formeln brauchen, können Sie diese Zeile löschen
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{trfsigns}
+\usepackage{mathtools}
+% die Hauptschrift Libertinus
+\usepackage{libertinus-otf}
+% die "Schreibmaschinenschrift" Anonymous Pro, angepasst
+\usepackage{AnonymousPro}
+\setmonofont{AnonymousPro}[Scale=MatchLowercase,FakeStretch=0.85]
+
+% etwas größerer Zeilenabstand als im Buchsatz
+\linespread{1.1}
+
+% Paket für Feinkorrekturen an der Typographie, das für ein ausgewogeneres
+% Schriftbild sorgt
+\usepackage{microtype}
+
+% Paket für kontextsensitive Anführungszeichen
+\usepackage{csquotes}
+% Shortcut, damit aus dem eigentlich falschen Zeichen " richtige
+% Anführungszeichen je nach Sprache werden
+\MakeOuterQuote{"}
+
+% Paket, das den Befehl \includegraphics ermöglicht
+\usepackage{graphicx}
+
+% komfortablere Aufzählungen als in Standard-LaTeX; ein Beispiel findet man in
+% chap3.tex
+\usepackage{enumitem}
+
+% Paket für mehr als die üblichen Standardfarben
+\usepackage[dvipsnames]{xcolor}
+% Definition der "Hausfarben" der HAW
+\definecolor{haw}{HTML}{003CA0}
+\definecolor{haw2}{HTML}{0096D2}
+\definecolor{haw3}{HTML}{A0BEDC}
+
+% typographisch anspruchsvolle Tabellen; siehe chap3.tex
+\usepackage{booktabs}
+
+% zum Erstellen des Literaturverzeichnisses; der gängige Stil APA ist hier
+% bereits eingestellt
+\usepackage[style=ieee]{biblatex}
+% eine Beispieldatei für ein Literaturverzeichnis
+\addbibresource{bib.bib}
+
+% für die Erzeugung der Grafiken in chap3.tex; wenn Sie PGF/TikZ nicht
+% verwenden wollen, können Sie diese Zeilen entfernen
+\usepackage{tikz}
+% Zusatzbibliotheken für TikZ, die in den genannten Beispielen verwendet
+% werden
+\usetikzlibrary{calc,intersections,angles,3d}
+
+% für die Erzeugung des Codeblocks in chap3.tex; wenn in Ihrer Arbeit keine
+% Codeblöcke vorkommen, können Sie diese Zeilen entfernen
+\usepackage{listings}
+% Anpassung des Erscheinungsbildes des Codeblocks; mehr dazu in der
+% Dokumentation des Pakets "listings"
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{gray!20},
+    keywordstyle=\color{haw2},
+    numberstyle=\footnotesize\color{haw},
+    basicstyle=\ttfamily\small,
+    captionpos=t,
+    frame=single,
+    framerule=0pt,
+    keepspaces=true,
+    numbers=left,
+    numbersep=6pt,
+    belowcaptionskip=1em,
+    aboveskip=\bigskipamount,
+}
+\lstset{style=mystyle}
+% damit es "Codeblock" und nicht "Listing" heißt
+\renewcommand{\lstlistingname}{Codeblock}
+
+% für die Verlinkung innerhalb des PDF-Dokuments, für PDF-Lesezeichen und
+% PDF-Metadaten; dieses Paket sollte üblicherweise immer als letztes geladen
+% werden
+\usepackage[colorlinks=true,allcolors=haw,hyperfootnotes=false,pageanchor=true,linktoc=all]{hyperref}
+
+% für die Druckversion können Sie die obige Zeile durch die folgende ersetzen,
+% damit Links nicht blau dargestellt werden:
+% \usepackage[draft]{hyperref}
+
+% Metadaten des PDF-Dokumentes; setzen Sie hier Ihren eigenen Namen sowie den
+% Titel Ihrer Arbeit ein
+\hypersetup{pdfauthor={Darius Daub}}
+\hypersetup{pdftitle={Leistungssteuerung mit PWM}}
+
+
+
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\DeclareMathAccent{\ring}%
+    {\mathalpha}{operators}{"17}
+\providecommand*{\angs}%
+    {\ensuremath{\smash{\mathrm{\ring A}}}}
+\providecommand*{\ohm}%
+    {\ensuremath{\mathrm{\Omega}}}
+\providecommand*{\degree}%
+    {\ensuremath{^\circ}}
+\providecommand*{\celsius}%
+    {\ensuremath{\mathrm{^\circ C}}}
+\providecommand*{\micro}%
+    {\ensuremath{\mu}}
+\providecommand*{\unit}[1]{%
+    \ensuremath{\mathrm{\,#1}}}
+% The number `e'
+\providecommand*{\eu}%
+    {\ensuremath{\mathrm{e}}}
+% The imaginary unit
+\providecommand*{\iu}%
+    {\ensuremath{\mathrm{j}}}
+\providecommand*{\ped}[1]{%
+    \ensuremath{_\mathrm{#1}}}
+\providecommand*{\ap}[1]{%
+    \ensuremath{^\mathrm{#1}}}
+\providecommand{\newoperator}[3]{%
+    \newcommand*{#1}{\mathop{#2}#3}}
+\providecommand{\renewoperator}[3]{%
+    \renewcommand*{#1}{\mathop{#2}#3}}
+\newoperator{\ent}%
+    {\mathrm{ent}}{\nolimits}
+\renewoperator{\Re}%
+    {\mathrm{Re}}{\nolimits}
+\renewoperator{\Im}%
+    {\mathrm{Im}}{\nolimits}
+\makeatletter
+\providecommand*{\diff}%
+    {\@ifnextchar^{\DIfF}{\DIfF^{}}}
+\def\DIfF^#1{%
+    \mathop{\mathrm{\mathstrut d}}%
+    \nolimits^{#1}\gobblespace}
+    \def\gobblespace{%
+    \futurelet\diffarg\opspace}
+\def\opspace{%
+    \let\DiffSpace\!%
+    \ifx\diffarg(%
+    \let\DiffSpace\relax
+    \else
+    \ifx\diffarg[%
+    \let\DiffSpace\relax
+    \else
+    \ifx\diffarg\{%
+    \let\DiffSpace\relax
+    \fi\fi\fi\DiffSpace}
+\providecommand*{\deriv}[3][]{%
+    \frac{\diff^{#1}#2}{\diff #3^{#1}}}
+\providecommand*{\pderiv}[3][]{%
+    \frac{\partial^{#1}#2}%
+    {\partial #3^{#1}}}
