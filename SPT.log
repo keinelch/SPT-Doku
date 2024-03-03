@@ -1,17 +1,17 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.6.15)  28 FEB 2024 21:29
- restricted system commands enabled.
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.21)  3 MAR 2024 18:05
+ system commands enabled.
  file:line:error style messages enabled.
-**c:/Users/dariu/OneDrive/Dokumente/GitHub/SPT-Doku/SPT
-(c:/Users/dariu/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.tex
-LaTeX2e <2023-06-01>
-L3 programming layer <2023-06-05>
-Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
-Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended collection.
+**c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT
+(c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended collection.
 luaotfload | conf : Root cache directory is "C:/texlive/2023/texmf-var/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-resolved path "c:/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2022-10-03.lua".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-resolved path "c:/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-2023-08-19.lua".
 Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.120
+luaotfload | init : Context OpenType loader version 3.133
 Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
@@ -36,17 +36,17 @@ Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2023/04/24 v3.40 KOMA-Script document class (report)
+Document Class: scrreprt 2023/07/07 v3.41 KOMA-Script document class (report)
 (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
  (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
  (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2023/04/24 v3.40 KOMA-Script package (file load hooks)
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
  (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2023/04/24 v3.40 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
  (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2023/04/24 v3.40 KOMA-Script package (logo)
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 ))) (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -54,7 +54,7 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 )) (c:/texlive/2023/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2023/04/24 v3.40 KOMA-Script package (handling toc-files)
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip48
 \scr@dte@tocline@numbox=\box51
 )
@@ -71,11 +71,11 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input line 2668.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input line 2688.
  (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2023/04/24 v3.40 KOMA-Script font size class option (12pt)
+File: scrsize12pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (12pt)
 luaotfload | db : Font names database loaded from C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (c:/texlive/2023/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2023/04/24 v3.40 KOMA-Script package (type area)
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count183
 \ta@hblk=\skip51
@@ -98,7 +98,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1798.
+(typearea)              on input line 1799.
 )
 \c@part=\count184
 \c@chapter=\count185
@@ -109,51 +109,51 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count190
 \scr@dte@chapter@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 5961.
+(scrreprt)           for `\chapter on input line 5994.
 \scr@dte@section@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 5972.
+(scrreprt)           for `\section on input line 6005.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 5972.
+(scrreprt)           for `\section on input line 6005.
 \scr@dte@part@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 5981.
+(scrreprt)           for `\part on input line 6014.
 \scr@dte@subsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 5991.
+(scrreprt)           for `\subsection on input line 6024.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 5991.
+(scrreprt)           for `\subsection on input line 6024.
 \scr@dte@subsubsection@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 6001.
+(scrreprt)           for `\subsubsection on input line 6034.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 6001.
+(scrreprt)           for `\subsubsection on input line 6034.
 \scr@dte@paragraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 6012.
+(scrreprt)           for `\paragraph on input line 6045.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 6012.
+(scrreprt)           for `\paragraph on input line 6045.
 \scr@dte@subparagraph@maxnumwidth=\skip61
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 6022.
+(scrreprt)           for `\subparagraph on input line 6055.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 6022.
+(scrreprt)           for `\subparagraph on input line 6055.
 \abovecaptionskip=\skip62
 \belowcaptionskip=\skip63
 \c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7199.
+(tocbasic)             for `lof' on input line 7240.
 \scr@dte@figure@maxnumwidth=\skip64
 \c@figure=\count191
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7216.
+(tocbasic)             for `lot' on input line 7257.
 \scr@dte@table@maxnumwidth=\skip65
 \c@table=\count192
-Class scrreprt Info: Redefining `\numberline' on input line 7387.
+Class scrreprt Info: Redefining `\numberline' on input line 7428.
 \bibindent=\dimen139
-) (./defs.tex (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/defs.tex (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
  (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -189,16 +189,26 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2023-06-12 v3.2.6 A comprehensive (SI) units package
+Package: siunitx 2023-10-07 v3.3.7 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count194
+\l__siunitx_number_exponent_fixed_int=\count195
+\l__siunitx_number_min_decimal_int=\count196
+\l__siunitx_number_min_integer_int=\count197
+\l__siunitx_number_round_precision_int=\count198
+\l__siunitx_number_lower_threshold_int=\count199
+\l__siunitx_number_upper_threshold_int=\count266
+\l__siunitx_number_group_first_int=\count267
+\l__siunitx_number_group_size_int=\count268
+\l__siunitx_number_group_minimum_int=\count269
 \l__siunitx_angle_tmp_dim=\dimen142
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count194
+\l__siunitx_compound_count_int=\count270
  (c:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count195
+\etb@tempcnta=\count271
 ) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -212,17 +222,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks20
-))
-\l__siunitx_number_exponent_fixed_int=\count196
-\l__siunitx_number_min_decimal_int=\count197
-\l__siunitx_number_min_integer_int=\count198
-\l__siunitx_number_round_precision_int=\count199
-\l__siunitx_number_lower_threshold_int=\count266
-\l__siunitx_number_upper_threshold_int=\count267
-\l__siunitx_number_group_first_int=\count268
-\l__siunitx_number_group_size_int=\count269
-\l__siunitx_number_group_minimum_int=\count270
- (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
@@ -239,9 +239,9 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \l__siunitx_table_after_box=\box62
 \l__siunitx_table_before_dim=\dimen146
 \l__siunitx_table_carry_dim=\dimen147
-\l__siunitx_unit_tmp_int=\count271
-\l__siunitx_unit_position_int=\count272
-\l__siunitx_unit_total_int=\count273
+\l__siunitx_unit_tmp_int=\count272
+\l__siunitx_unit_position_int=\count273
+\l__siunitx_unit_total_int=\count274
 ) (c:/texlive/2023/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.sty
 Package: pgf-spectra 27/04/2023 pgf-spectra v3.0.1
  (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -287,14 +287,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen161
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count274
-\c@pgf@countb=\count275
-\c@pgf@countc=\count276
-\c@pgf@countd=\count277
+\c@pgf@counta=\count275
+\c@pgf@countb=\count276
+\c@pgf@countc=\count277
+\c@pgf@countd=\count278
 \t@pgf@toka=\toks26
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count278
+\pgf@sys@id@count=\count279
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -305,21 +305,21 @@ File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count279
-\pgfsyssoftpath@bigbuffer@items=\count280
+\pgfsyssoftpath@smallbuffer@items=\count280
+\pgfsyssoftpath@bigbuffer@items=\count281
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen162
-\pgfmath@count=\count281
+\pgfmath@count=\count282
 \pgfmath@box=\box64
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count282
+\c@pgfmathroundto@lastzeros=\count283
 )) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen163
@@ -349,7 +349,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box65
 \pgf@hbox=\box66
 \pgf@layerbox@main=\box67
-\pgf@picture@serial@count=\count283
+\pgf@picture@serial@count=\count284
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen181
@@ -370,8 +370,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen186
-\pgf@sys@shading@range@num=\count284
-\pgf@shadingcount=\count285
+\pgf@sys@shading@range@num=\count285
+\pgf@shadingcount=\count286
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -406,7 +406,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count286
+\pgf@plot@mark@count=\count287
 \pgfplotmarksize=\dimen191
 )
 \tikz@lastx=\dimen192
@@ -421,24 +421,24 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box71
 \tikz@tempbox=\box72
 \tikz@tempbox@bg=\box73
-\tikztreelevel=\count287
-\tikznumberofchildren=\count288
-\tikznumberofcurrentchild=\count289
-\tikz@fig@count=\count290
+\tikztreelevel=\count288
+\tikznumberofchildren=\count289
+\tikznumberofcurrentchild=\count290
+\tikz@fig@count=\count291
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count291
-\pgfmatrixcurrentcolumn=\count292
-\pgf@matrix@numberofcolumns=\count293
+\pgfmatrixcurrentrow=\count292
+\pgfmatrixcurrentcolumn=\count293
+\pgf@matrix@numberofcolumns=\count294
 )
-\tikz@expandcount=\count294
+\tikz@expandcount=\count295
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2023/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.data.NIST.tex) (c:/texlive/2023/texmf-dist/tex/latex/pgf-spectra/pgf-spectra.input.library.tex)
-\pgfspectra@counta=\count295
-\pgfspectra@countb=\count296
-\pgfspectra@countc=\count297
-\pgfspectra@countd=\count298
+\pgfspectra@counta=\count296
+\pgfspectra@countb=\count297
+\pgfspectra@countc=\count298
+\pgfspectra@countd=\count299
 \pgfspectrawl=\dimen256
 \pgfspectra@i=\dimen257
 \@pgfspectra@gamma=\dimen258
@@ -454,8 +454,8 @@ Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \t@pgfplots@tokb=\toks35
 \t@pgfplots@tokc=\toks36
 \pgfplots@tmpa=\dimen262
-\c@pgfplots@coordindex=\count299
-\c@pgfplots@scanlineindex=\count300
+\c@pgfplots@coordindex=\count300
+\c@pgfplots@scanlineindex=\count301
  (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks37
@@ -466,25 +466,25 @@ Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.10
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 Package pgfplots info on input line 82: Found new luatex: initializing lua commands instead of write18 (shell-escape)
  (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count301
+\c@pgfplotsarray@tmp=\count302
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count302
+\c@pgfplotstable@counta=\count303
 \t@pgfplotstable@a=\toks40
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count303
+\c@pgfplotslibrarysurf@no=\count304
  (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-luatex.def))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen263
 \pgfdecoratedremainingdistance=\dimen264
 \pgfdecoratedinputsegmentcompleteddistance=\dimen265
 \pgfdecoratedinputsegmentremainingdistance=\dimen266
 \pgf@decorate@distancetomove=\dimen267
-\pgf@decorate@repeatstate=\count304
+\pgf@decorate@repeatstate=\count305
 \pgfdecorationsegmentamplitude=\dimen268
 \pgfdecorationsegmentlength=\dimen269
 )
 \tikz@lib@dec@box=\box74
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count305
+\pgfplots@numplots=\count306
 \pgfplots@xmin@reg=\dimen270
 \pgfplots@xmax@reg=\dimen271
 \pgfplots@ymin@reg=\dimen272
@@ -496,11 +496,11 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen276
 \captionmargin=\dimen277
 \caption@leftmargin=\dimen278
@@ -511,35 +511,35 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@hangindent=\dimen283
 Package caption Info: KOMA-Script document class detected.
  (c:/texlive/2023/texmf-dist/tex/latex/caption/caption-koma.sto
-File: caption-koma.sto 2022/12/27 v2.0c Adaption of the caption package to the KOMA-Script document classes (AR)
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count306
-\c@continuedfloat=\count307
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
 Package caption Info: KOMA-Script scrextend package detected.
 \caption@addmargin@hsize=\dimen284
 \caption@addmargin@linewidth=\dimen285
 )
-Package caption Info: New subtype `subfigure' on input line 239.
-\c@subfigure=\count308
-Package caption Info: New subtype `subtable' on input line 239.
-\c@subtable=\count309
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count309
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count310
 ) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count310
+\lst@mode=\count311
 \lst@gtempboxa=\box75
 \lst@token=\toks41
-\lst@length=\count311
+\lst@length=\count312
 \lst@currlwidth=\dimen286
-\lst@column=\count312
-\lst@pos=\count313
+\lst@column=\count313
+\lst@pos=\count314
 \lst@lostspace=\dimen287
 \lst@width=\dimen288
-\lst@newlines=\count314
-\lst@lineno=\count315
+\lst@newlines=\count315
+\lst@lineno=\count316
 \lst@maxwidth=\dimen289
  (c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count316
-\lst@skipnumbers=\count317
+\c@lstnumber=\count317
+\lst@skipnumbers=\count318
 \lst@framebox=\box76
 ) (c:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -552,9 +552,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count318
-\Gm@cntv=\count319
-\c@Gm@tempcnt=\count320
+\Gm@cnth=\count319
+\Gm@cntv=\count320
+\c@Gm@tempcnt=\count321
 \Gm@bindingoffset=\dimen290
 \Gm@wd@mp=\dimen291
 \Gm@odd@mp=\dimen292
@@ -565,131 +565,133 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen297
 \Gm@dimlist=\toks42
 ) (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-06-05 L3 programming layer (loader) 
+Package: expl3 2023-10-10 L3 programming layer (loader) 
  (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count321
+File: l3backend-luatex.def 2023-10-10 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count322
 Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box77
 ))
-Package: xparse 2023-02-02 L3 Experimental document command parser
+Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count322
-\l__fontspec_language_int=\count323
-\l__fontspec_strnum_int=\count324
-\l__fontspec_tmp_int=\count325
-\l__fontspec_tmpa_int=\count326
-\l__fontspec_tmpb_int=\count327
-\l__fontspec_tmpc_int=\count328
-\l__fontspec_em_int=\count329
-\l__fontspec_emdef_int=\count330
-\l__fontspec_strong_int=\count331
-\l__fontspec_strongdef_int=\count332
+\l__fontspec_script_int=\count323
+\l__fontspec_language_int=\count324
+\l__fontspec_strnum_int=\count325
+\l__fontspec_tmp_int=\count326
+\l__fontspec_tmpa_int=\count327
+\l__fontspec_tmpb_int=\count328
+\l__fontspec_tmpc_int=\count329
+\l__fontspec_em_int=\count330
+\l__fontspec_emdef_int=\count331
+\l__fontspec_strong_int=\count332
+\l__fontspec_strongdef_int=\count333
 \l__fontspec_tmpa_dim=\dimen298
 \l__fontspec_tmpb_dim=\dimen299
 \l__fontspec_tmpc_dim=\dimen300
  (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/05/11 v3.89 The Babel package
+Package: babel 2023/09/29 v3.95 The Babel package
  (c:/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read3
 \l@dumylang=\language2
 Package babel Info: Non-standard hyphenation setup on input line 118.
 \l@nohyphenation=\language3
-\l@german-x-2023-03-06=\language4
-\l@ngerman-x-2023-03-06=\language5
-\l@afrikaans=\language6
-\l@ancientgreek=\language7
-\l@ibycus=\language8
-\l@arabic=\language9
-\l@armenian=\language10
-\l@basque=\language11
-\l@belarusian=\language12
-\l@bulgarian=\language13
-\l@catalan=\language14
-\l@pinyin=\language15
-\l@churchslavonic=\language16
-\l@coptic=\language17
-\l@croatian=\language18
-\l@czech=\language19
-\l@danish=\language20
-\l@dutch=\language21
-\l@ukenglish=\language22
-\l@usenglishmax=\language23
-\l@esperanto=\language24
-\l@estonian=\language25
-\l@ethiopic=\language26
-\l@farsi=\language27
-\l@finnish=\language28
-\l@schoolfinnish=\language29
-\l@french=\language30
-\l@friulan=\language31
-\l@galician=\language32
-\l@georgian=\language33
-\l@german=\language34
-\l@ngerman=\language35
-\l@swissgerman=\language36
-\l@greek=\language37
-\l@monogreek=\language38
-\l@hungarian=\language39
-\l@icelandic=\language40
-\l@assamese=\language41
-\l@bengali=\language42
-\l@gujarati=\language43
-\l@hindi=\language44
-\l@kannada=\language45
-\l@malayalam=\language46
-\l@marathi=\language47
-\l@oriya=\language48
-\l@pali=\language49
-\l@panjabi=\language50
-\l@tamil=\language51
-\l@telugu=\language52
-\l@indonesian=\language53
-\l@interlingua=\language54
-\l@irish=\language55
-\l@italian=\language56
-\l@kurmanji=\language57
-\l@classiclatin=\language58
-\l@latin=\language59
-\l@liturgicallatin=\language60
-\l@latvian=\language61
-\l@lithuanian=\language62
-\l@macedonian=\language63
-\l@mongolian=\language64
-\l@mongolianlmc=\language65
-\l@bokmal=\language66
-\l@nynorsk=\language67
-\l@occitan=\language68
-\l@piedmontese=\language69
-\l@polish=\language70
-\l@portuguese=\language71
-\l@romanian=\language72
-\l@romansh=\language73
-\l@russian=\language74
-\l@sanskrit=\language75
-\l@serbian=\language76
-\l@serbianc=\language77
-\l@slovak=\language78
-\l@slovenian=\language79
-\l@spanish=\language80
-\l@swedish=\language81
-\l@thai=\language82
-\l@turkish=\language83
-\l@turkmen=\language84
-\l@ukrainian=\language85
-\l@uppersorbian=\language86
-\l@welsh=\language87
+\l@vietnamese=\language4
+\l@hebrew=\language5
+\l@german-x-2023-03-06=\language6
+\l@ngerman-x-2023-03-06=\language7
+\l@afrikaans=\language8
+\l@ancientgreek=\language9
+\l@ibycus=\language10
+\l@arabic=\language11
+\l@armenian=\language12
+\l@basque=\language13
+\l@belarusian=\language14
+\l@bulgarian=\language15
+\l@catalan=\language16
+\l@pinyin=\language17
+\l@churchslavonic=\language18
+\l@coptic=\language19
+\l@croatian=\language20
+\l@czech=\language21
+\l@danish=\language22
+\l@dutch=\language23
+\l@ukenglish=\language24
+\l@usenglishmax=\language25
+\l@esperanto=\language26
+\l@estonian=\language27
+\l@ethiopic=\language28
+\l@farsi=\language29
+\l@finnish=\language30
+\l@schoolfinnish=\language31
+\l@french=\language32
+\l@friulan=\language33
+\l@galician=\language34
+\l@georgian=\language35
+\l@german=\language36
+\l@ngerman=\language37
+\l@swissgerman=\language38
+\l@greek=\language39
+\l@monogreek=\language40
+\l@hungarian=\language41
+\l@icelandic=\language42
+\l@assamese=\language43
+\l@bengali=\language44
+\l@gujarati=\language45
+\l@hindi=\language46
+\l@kannada=\language47
+\l@malayalam=\language48
+\l@marathi=\language49
+\l@oriya=\language50
+\l@pali=\language51
+\l@panjabi=\language52
+\l@tamil=\language53
+\l@telugu=\language54
+\l@indonesian=\language55
+\l@interlingua=\language56
+\l@irish=\language57
+\l@italian=\language58
+\l@kurmanji=\language59
+\l@classiclatin=\language60
+\l@latin=\language61
+\l@liturgicallatin=\language62
+\l@latvian=\language63
+\l@lithuanian=\language64
+\l@macedonian=\language65
+\l@mongolian=\language66
+\l@mongolianlmc=\language67
+\l@bokmal=\language68
+\l@nynorsk=\language69
+\l@occitan=\language70
+\l@piedmontese=\language71
+\l@polish=\language72
+\l@portuguese=\language73
+\l@romanian=\language74
+\l@romansh=\language75
+\l@russian=\language76
+\l@sanskrit=\language77
+\l@serbian=\language78
+\l@serbianc=\language79
+\l@slovak=\language80
+\l@slovenian=\language81
+\l@spanish=\language82
+\l@swedish=\language83
+\l@thai=\language84
+\l@turkish=\language85
+\l@turkmen=\language86
+\l@ukrainian=\language87
+\l@uppersorbian=\language88
+\l@welsh=\language89
 \babelcatcodetablenum=\catcodetable15
 \bbl@pattcodes=\catcodetable16
 )
-\babel@savecnt=\count333
+\babel@savecnt=\count334
 \U@D=\dimen301
-\l@unhyphenated=\language88
+\l@unhyphenated=\language90
  (c:/texlive/2023/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
 ) (c:/texlive/2023/texmf-dist/tex/generic/babel-english/english.ldf
@@ -697,9 +699,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 105.
+(babel)             (\language24). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 108.
+(babel)             (\language24). Reported on input line 108.
 ) (c:/texlive/2023/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
  (c:/texlive/2023/texmf-dist/tex/generic/babel-german/ngermanb.ldf
@@ -725,14 +727,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count334
+\inf@bad=\count335
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count335
-\leftroot@=\count336
+\uproot@=\count336
+\leftroot@=\count337
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count337
-\DOTSCASE@=\count338
+\classnum@=\count338
+\DOTSCASE@=\count339
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -745,20 +747,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen303
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count339
+\macc@depth=\count340
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count340
+\c@MaxMatrixCols=\count341
 \dotsspace@=\muskip16
-\c@parentequation=\count341
-\dspbrk@lvl=\count342
+\c@parentequation=\count342
+\dspbrk@lvl=\count343
 \tag@help=\toks43
-\row@=\count343
-\column@=\count344
-\maxfields@=\count345
+\row@=\count344
+\column@=\count345
+\maxfields@=\count346
 \andhelp@=\toks44
 \eqnshift@=\dimen304
 \alignsep@=\dimen305
@@ -787,20 +789,20 @@ Package: trfsigns
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count346
-\calc@Bcount=\count347
+\calc@Acount=\count347
+\calc@Bcount=\count348
 \calc@Adimen=\dimen310
 \calc@Bdimen=\dimen311
 \calc@Askip=\skip72
 \calc@Bskip=\skip73
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count348
+\calc@Ccount=\count349
 \calc@Cskip=\skip74
 ) (c:/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count349
+\g_MT_multlinerow_int=\count350
 \l_MT_multwidth_dim=\dimen312
 \origjot=\skip75
 \l_MT_shortvdotswithinadjustabove_dim=\dimen313
@@ -812,7 +814,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \xmathstrut@box=\box80
 \xmathstrut@dim=\dimen319
 ) (c:/texlive/2023/texmf-dist/tex/latex/libertinus-otf/libertinus-otf.sty
-Package: libertinus-otf 2023/05/16 v. 0.31 (Herbert Voss) Supports libertinus fonts for lualatex and xelatex.
+Package: libertinus-otf 2023/09/21 v. 0.32 (Herbert Voss) Supports libertinus fonts for lualatex and xelatex.
  (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
@@ -823,16 +825,16 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count350
+\XKV@depth=\count351
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math.sty
-Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
  (c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
-Package: unicode-math-luatex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
  (c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
  (c:/texlive/2023/texmf-dist/tex/latex/base/ts1enc.def
@@ -841,9 +843,9 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 )) (c:/texlive/2023/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting with LuaLaTeX
 Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting with LuaLaTeX)
-\g__um_fam_int=\count351
-\g__um_fonts_used_int=\count352
-\l__um_primecount_int=\count353
+\g__um_fam_int=\count352
+\g__um_fonts_used_int=\count353
+\l__um_primecount_int=\count354
 \g__um_primekern_muskip=\muskip17
  (c:/texlive/2023/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
 
@@ -936,13 +938,13 @@ Package fontspec Info: Font family 'LibertinusSerif(1)' created for font
 (fontspec)             <->s*[1]"[LibertinusSerif-Bold.otf]:mode=base;script=latn;language=dflt;slant=0.2;+tnum;+lnum;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(1)/m/n on input line 214.
+(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(1)/m/n on input line 232.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(1)/m/it on input line 214.
+(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(1)/m/it on input line 232.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(1)/b/n on input line 214.
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(1)/b/n on input line 232.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 214.
+(Font)              scaled to size 12.0pt on input line 232.
 
 Package fontspec Info: Font family 'LibertinusSerif(2)' created for font
 (fontspec)             'LibertinusSerif' with options [RawFeature =
@@ -1159,9 +1161,9 @@ Package fontspec Info: Font family 'LibertinusSans(1)' created for font
 (fontspec)             <->s*[1]"[LibertinusSans-Bold.otf]:mode=base;script=latn;language=dflt;slant=0.2;+tnum;+lnum;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LibertinusSans(1)/m/n on input line 294.
+(Font)                  OT1/cmss/m/n --> TU/LibertinusSans(1)/m/n on input line 312.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/LibertinusSans(1)/b/n on input line 294.
+(Font)                  OT1/cmss/bx/n --> TU/LibertinusSans(1)/b/n on input line 312.
 
 Package fontspec Info: Font family 'LibertinusSans(2)' created for font
 (fontspec)             'LibertinusSans' with options [RawFeature =
@@ -1394,9 +1396,9 @@ Package fontspec Info: Font family 'LibertinusMono(1)' created for font
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/m/n on input line 351.
+(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/m/n on input line 369.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/b/n on input line 351.
+(Font)                  OT1/cmtt/m/n --> TU/LibertinusMono(1)/b/n on input line 369.
 
 *************************************
 * Using libertinus math *
@@ -1404,296 +1406,144 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(0)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;"
+(fontspec)             <->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
 
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(1)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 359.
+(Font)              `operators' in the math version `normal' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusMath-Regular.otf(1)/m/n on input line 359.
+(Font)                  OT1/cmr/m/n --> TU/LibertinusMath-Regular.otf(1)/m/n on input line 377.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 359.
+(Font)              `operators' in the math version `bold' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath-Regular.otf(1)/b/n on input line 359.
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusMath-Regular.otf(1)/b/n on input line 377.
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(2)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },ScaleAgain=1.0001,FontAdjustment={\fontdimen 8\font
-(fontspec)             =6.95999pt\relax \fontdimen 9\font =5.76pt\relax
-(fontspec)             \fontdimen 10\font =5.64pt\relax \fontdimen 11\font
-(fontspec)             =8.4pt\relax \fontdimen 12\font =5.76pt\relax
-(fontspec)             \fontdimen 13\font =4.5pt\relax \fontdimen 14\font
-(fontspec)             =4.5pt\relax \fontdimen 15\font =3.71999pt\relax
-(fontspec)             \fontdimen 16\font =2.51999pt\relax \fontdimen 17\font
-(fontspec)             =2.51999pt\relax \fontdimen 18\font =2.76pt\relax
-(fontspec)             \fontdimen 19\font =0.54pt\relax \fontdimen 22\font
-(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={mathfontdimen=tex2}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;"<8.4-10.8>s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-8.4>s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =6.95999pt\relax \fontdimen 9\font =5.76pt\relax
-(fontspec)             \fontdimen 10\font =5.64pt\relax \fontdimen 11\font
-(fontspec)             =8.4pt\relax \fontdimen 12\font =5.76pt\relax
-(fontspec)             \fontdimen 13\font =4.5pt\relax \fontdimen 14\font
-(fontspec)             =4.5pt\relax \fontdimen 15\font =3.71999pt\relax
-(fontspec)             \fontdimen 16\font =2.51999pt\relax \fontdimen 17\font
-(fontspec)             =2.51999pt\relax \fontdimen 18\font =2.76pt\relax
-(fontspec)             \fontdimen 19\font =0.54pt\relax \fontdimen 22\font
-(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 359.
+(Font)              `symbols' in the math version `normal' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath-Regular.otf(2)/m/n on input line 359.
+(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath-Regular.otf(2)/m/n on input line 377.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 359.
+(Font)              `symbols' in the math version `bold' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath-Regular.otf(2)/b/n on input line 359.
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
+(Font)                  OMS/cmsy/b/n --> TU/LibertinusMath-Regular.otf(2)/b/n on input line 377.
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(3)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },ScaleAgain=0.9999,FontAdjustment={\fontdimen 8\font
-(fontspec)             =0.78pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.79999pt\relax \fontdimen 11\font
-(fontspec)             =3.0pt\relax \fontdimen 12\font =7.43999pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={mathfontdimen=tex3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;"<8.4-10.8>s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=0;"<-8.4>s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =0.78pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.79999pt\relax \fontdimen 11\font
-(fontspec)             =3.0pt\relax \fontdimen 12\font =7.43999pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 359.
+(Font)              `largesymbols' in the math version `normal' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(3)/m/n on input line 359.
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(3)/m/n on input line 377.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 359.
+(Font)              `largesymbols' in the math version `bold' on input line 377.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(3)/b/n on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.60103pt on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.59897pt on input line 359.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 359.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 359.
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(3)/b/n on input line 377.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 377.
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 359.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 377.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Redeclaring math version `bold' on input line 361.
+LaTeX Font Info:    Redeclaring math version `bold' on input line 379.
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(4)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },RawFeature={embolden=3}].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex},RawFeature={embolden=3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;"
+(fontspec)             <->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
 
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(5)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },RawFeature={embolden=3}].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={embolden=3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 361.
+(Font)              `operators' in the math version `bold' on input line 379.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/m/n --> TU/LibertinusMath-Regular.otf(5)/m/n on input line 361.
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 1.0001.
-
+(Font)                  OT1/cmr/m/n --> TU/LibertinusMath-Regular.otf(5)/m/n on input line 379.
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(6)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },RawFeature={embolden=3},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =6.95999pt\relax \fontdimen 9\font =5.76pt\relax
-(fontspec)             \fontdimen 10\font =5.64pt\relax \fontdimen 11\font
-(fontspec)             =8.4pt\relax \fontdimen 12\font =5.76pt\relax
-(fontspec)             \fontdimen 13\font =4.5pt\relax \fontdimen 14\font
-(fontspec)             =4.5pt\relax \fontdimen 15\font =3.71999pt\relax
-(fontspec)             \fontdimen 16\font =2.51999pt\relax \fontdimen 17\font
-(fontspec)             =2.51999pt\relax \fontdimen 18\font =2.76pt\relax
-(fontspec)             \fontdimen 19\font =0.54pt\relax \fontdimen 22\font
-(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={embolden=3},RawFeature={mathfontdimen=tex2}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;"<8.4-10.8>s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=0;"<-8.4>s*[1.0001]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex2;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex2;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex2;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =6.95999pt\relax \fontdimen 9\font =5.76pt\relax
-(fontspec)             \fontdimen 10\font =5.64pt\relax \fontdimen 11\font
-(fontspec)             =8.4pt\relax \fontdimen 12\font =5.76pt\relax
-(fontspec)             \fontdimen 13\font =4.5pt\relax \fontdimen 14\font
-(fontspec)             =4.5pt\relax \fontdimen 15\font =3.71999pt\relax
-(fontspec)             \fontdimen 16\font =2.51999pt\relax \fontdimen 17\font
-(fontspec)             =2.51999pt\relax \fontdimen 18\font =2.76pt\relax
-(fontspec)             \fontdimen 19\font =0.54pt\relax \fontdimen 22\font
-(fontspec)             =3.12pt\relax \fontdimen 20\font =0pt\relax \fontdimen
-(fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 361.
+(Font)              `symbols' in the math version `bold' on input line 379.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath-Regular.otf(6)/m/n on input line 361.
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
-
-Package fontspec Info: LibertinusMath-Regular scale = 0.9999.
-
+(Font)                  OMS/cmsy/m/n --> TU/LibertinusMath-Regular.otf(6)/m/n on input line 379.
 
 Package fontspec Info: Font family 'LibertinusMath-Regular.otf(7)' created for
 (fontspec)             font 'LibertinusMath-Regular.otf' with options
-(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},FontAdjustment={\__um_luatex_copy_fontdimens:
-(fontspec)             },RawFeature={embolden=3},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.78pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.79999pt\relax \fontdimen 11\font
-(fontspec)             =3.0pt\relax \fontdimen 12\font =7.43999pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=10.8-},{Size=8.4-10.8,Font=LibertinusMath-Regular.otf,Style=MathScript},{Size=-8.4,Font=LibertinusMath-Regular.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},RawFeature={embolden=3},RawFeature={mathfontdimen=tex3}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <10.8->s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;"<8.4-10.8>s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=0;"<-8.4>s*[0.9999]"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;embolden=3;+ssty=1;"
+(fontspec)             <10.8->"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex3;"<8.4-10.8>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex3;+ssty=0;"<-8.4>"[LibertinusMath-Regular.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;embolden=3;mathfontdimen=tex3;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \__um_luatex_copy_fontdimens: \fontdimen 8\font
-(fontspec)             =0.78pt\relax \fontdimen 9\font =1.79999pt\relax
-(fontspec)             \fontdimen 10\font =1.79999pt\relax \fontdimen 11\font
-(fontspec)             =3.0pt\relax \fontdimen 12\font =7.43999pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 361.
+(Font)              `largesymbols' in the math version `bold' on input line 379.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(7)/m/n on input line 361.
-
-Package fontspec Info: Font family 'LibertinusKeyboard-Regular.otf(0)' created
-(fontspec)             for font 'LibertinusKeyboard-Regular.otf' with options
-(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature=+liga].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[LibertinusKeyboard-Regular.otf]:mode=node;script=latn;language=dflt;+liga;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
+(Font)                  OMX/cmex/m/n --> TU/LibertinusMath-Regular.otf(7)/m/n on input line 379.
 
 Package fontspec Info: Font family 'LinBiolinum_K.otf(0)' created for font
 (fontspec)             'LinBiolinum_K.otf' with options
@@ -1704,6 +1554,18 @@ Package fontspec Info: Font family 'LinBiolinum_K.otf(0)' created for font
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"[LinBiolinum_K.otf]:mode=node;script=latn;language=dflt;+liga;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'LibertinusKeyboard-Regular.otf(0)' created
+(fontspec)             for font 'LibertinusKeyboard-Regular.otf' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature=+liga].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[LibertinusKeyboard-Regular.otf]:mode=node;script=latn;language=dflt;+liga;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 luaotfload | aux : font no 78 (nil) does not define feature smcp for script latn with language dflt
@@ -1802,7 +1664,7 @@ Package fontspec Info: Font family 'AnonymousPro(0)' created for font
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks49
 \MT@tempbox=\box81
-\MT@count=\count354
+\MT@count=\count355
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks50
@@ -1810,7 +1672,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen320
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count355
+\MT@listname@count=\count356
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2023/03/13 v3.1a Definitions specific to luatex (RS)
 Lua module: microtype 2023/03/13 3.1a microtype module.
@@ -1824,12 +1686,12 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
 )) (c:/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count356
-\csq@gtype=\count357
-\csq@glevel=\count358
-\csq@qlevel=\count359
-\csq@maxlvl=\count360
-\csq@tshold=\count361
+\csq@reset=\count357
+\csq@gtype=\count358
+\csq@glevel=\count359
+\csq@qlevel=\count360
+\csq@maxlvl=\count361
+\csq@tshold=\count362
 \csq@ltx@everypar=\toks51
  (c:/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -1846,8 +1708,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen321
 \enit@toks=\toks52
 \enit@inbox=\box82
-\enit@count@id=\count362
-\enitdp@description=\count363
+\enit@count@id=\count363
+\enitdp@description=\count364
 ) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen322
@@ -1860,18 +1722,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen329
 \cmidrulekern=\dimen330
 \defaultaddspace=\dimen331
-\@cmidla=\count364
-\@cmidlb=\count365
+\@cmidla=\count365
+\@cmidlb=\count366
 \@aboverulesep=\dimen332
 \@belowrulesep=\dimen333
-\@thisruleclass=\count366
-\@lastruleclass=\count367
+\@thisruleclass=\count367
+\@lastruleclass=\count368
 \@thisrulewidth=\dimen334
 ) (c:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (c:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count368
+\lrq@indent=\count369
  (c:/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
@@ -1880,49 +1742,49 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count369
-\c@listtotal=\count370
-\c@listcount=\count371
-\c@liststart=\count372
-\c@liststop=\count373
-\c@citecount=\count374
-\c@citetotal=\count375
-\c@multicitecount=\count376
-\c@multicitetotal=\count377
-\c@instcount=\count378
-\c@maxnames=\count379
-\c@minnames=\count380
-\c@maxitems=\count381
-\c@minitems=\count382
-\c@citecounter=\count383
-\c@maxcitecounter=\count384
-\c@savedcitecounter=\count385
-\c@uniquelist=\count386
-\c@uniquename=\count387
-\c@refsection=\count388
-\c@refsegment=\count389
-\c@maxextratitle=\count390
-\c@maxextratitleyear=\count391
-\c@maxextraname=\count392
-\c@maxextradate=\count393
-\c@maxextraalpha=\count394
-\c@abbrvpenalty=\count395
-\c@highnamepenalty=\count396
-\c@lownamepenalty=\count397
-\c@maxparens=\count398
-\c@parenlevel=\count399
-\blx@tempcnta=\count400
-\blx@tempcntb=\count401
-\blx@tempcntc=\count402
-\c@blx@maxsection=\count403
-\blx@maxsegment@0=\count404
-\blx@notetype=\count405
-\blx@parenlevel@text=\count406
-\blx@parenlevel@foot=\count407
-\blx@sectionciteorder@0=\count408
-\blx@sectionciteorderinternal@0=\count409
-\blx@entrysetcounter=\count410
-\blx@biblioinstance=\count411
+\c@tabx@nest=\count370
+\c@listtotal=\count371
+\c@listcount=\count372
+\c@liststart=\count373
+\c@liststop=\count374
+\c@citecount=\count375
+\c@citetotal=\count376
+\c@multicitecount=\count377
+\c@multicitetotal=\count378
+\c@instcount=\count379
+\c@maxnames=\count380
+\c@minnames=\count381
+\c@maxitems=\count382
+\c@minitems=\count383
+\c@citecounter=\count384
+\c@maxcitecounter=\count385
+\c@savedcitecounter=\count386
+\c@uniquelist=\count387
+\c@uniquename=\count388
+\c@refsection=\count389
+\c@refsegment=\count390
+\c@maxextratitle=\count391
+\c@maxextratitleyear=\count392
+\c@maxextraname=\count393
+\c@maxextradate=\count394
+\c@maxextraalpha=\count395
+\c@abbrvpenalty=\count396
+\c@highnamepenalty=\count397
+\c@lownamepenalty=\count398
+\c@maxparens=\count399
+\c@parenlevel=\count400
+\blx@tempcnta=\count401
+\blx@tempcntb=\count402
+\blx@tempcntc=\count403
+\c@blx@maxsection=\count404
+\blx@maxsegment@0=\count405
+\blx@notetype=\count406
+\blx@parenlevel@text=\count407
+\blx@parenlevel@foot=\count408
+\blx@sectionciteorder@0=\count409
+\blx@sectionciteorderinternal@0=\count410
+\blx@entrysetcounter=\count411
+\blx@biblioinstance=\count412
 \labelnumberwidth=\skip78
 \labelalphawidth=\skip79
 \biblabelsep=\skip80
@@ -1933,10 +1795,10 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip85
 \blx@bcfin=\read4
 \blx@bcfout=\write4
-\blx@langwohyphens=\language89
-\c@mincomprange=\count412
-\c@maxcomprange=\count413
-\c@mincompwidth=\count414
+\blx@langwohyphens=\language91
+\c@mincomprange=\count413
+\c@maxcomprange=\count414
+\c@mincompwidth=\count415
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1946,74 +1808,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count415
-\c@savedafterword=\count416
-\c@annotator=\count417
-\c@savedannotator=\count418
-\c@author=\count419
-\c@savedauthor=\count420
-\c@bookauthor=\count421
-\c@savedbookauthor=\count422
-\c@commentator=\count423
-\c@savedcommentator=\count424
-\c@editor=\count425
-\c@savededitor=\count426
-\c@editora=\count427
-\c@savededitora=\count428
-\c@editorb=\count429
-\c@savededitorb=\count430
-\c@editorc=\count431
-\c@savededitorc=\count432
-\c@foreword=\count433
-\c@savedforeword=\count434
-\c@holder=\count435
-\c@savedholder=\count436
-\c@introduction=\count437
-\c@savedintroduction=\count438
-\c@namea=\count439
-\c@savednamea=\count440
-\c@nameb=\count441
-\c@savednameb=\count442
-\c@namec=\count443
-\c@savednamec=\count444
-\c@translator=\count445
-\c@savedtranslator=\count446
-\c@shortauthor=\count447
-\c@savedshortauthor=\count448
-\c@shorteditor=\count449
-\c@savedshorteditor=\count450
-\c@labelname=\count451
-\c@savedlabelname=\count452
-\c@institution=\count453
-\c@savedinstitution=\count454
-\c@lista=\count455
-\c@savedlista=\count456
-\c@listb=\count457
-\c@savedlistb=\count458
-\c@listc=\count459
-\c@savedlistc=\count460
-\c@listd=\count461
-\c@savedlistd=\count462
-\c@liste=\count463
-\c@savedliste=\count464
-\c@listf=\count465
-\c@savedlistf=\count466
-\c@location=\count467
-\c@savedlocation=\count468
-\c@organization=\count469
-\c@savedorganization=\count470
-\c@origlocation=\count471
-\c@savedoriglocation=\count472
-\c@origpublisher=\count473
-\c@savedorigpublisher=\count474
-\c@publisher=\count475
-\c@savedpublisher=\count476
-\c@language=\count477
-\c@savedlanguage=\count478
-\c@origlanguage=\count479
-\c@savedoriglanguage=\count480
-\c@pageref=\count481
-\c@savedpageref=\count482
+\c@afterword=\count416
+\c@savedafterword=\count417
+\c@annotator=\count418
+\c@savedannotator=\count419
+\c@author=\count420
+\c@savedauthor=\count421
+\c@bookauthor=\count422
+\c@savedbookauthor=\count423
+\c@commentator=\count424
+\c@savedcommentator=\count425
+\c@editor=\count426
+\c@savededitor=\count427
+\c@editora=\count428
+\c@savededitora=\count429
+\c@editorb=\count430
+\c@savededitorb=\count431
+\c@editorc=\count432
+\c@savededitorc=\count433
+\c@foreword=\count434
+\c@savedforeword=\count435
+\c@holder=\count436
+\c@savedholder=\count437
+\c@introduction=\count438
+\c@savedintroduction=\count439
+\c@namea=\count440
+\c@savednamea=\count441
+\c@nameb=\count442
+\c@savednameb=\count443
+\c@namec=\count444
+\c@savednamec=\count445
+\c@translator=\count446
+\c@savedtranslator=\count447
+\c@shortauthor=\count448
+\c@savedshortauthor=\count449
+\c@shorteditor=\count450
+\c@savedshorteditor=\count451
+\c@labelname=\count452
+\c@savedlabelname=\count453
+\c@institution=\count454
+\c@savedinstitution=\count455
+\c@lista=\count456
+\c@savedlista=\count457
+\c@listb=\count458
+\c@savedlistb=\count459
+\c@listc=\count460
+\c@savedlistc=\count461
+\c@listd=\count462
+\c@savedlistd=\count463
+\c@liste=\count464
+\c@savedliste=\count465
+\c@listf=\count466
+\c@savedlistf=\count467
+\c@location=\count468
+\c@savedlocation=\count469
+\c@organization=\count470
+\c@savedorganization=\count471
+\c@origlocation=\count472
+\c@savedoriglocation=\count473
+\c@origpublisher=\count474
+\c@savedorigpublisher=\count475
+\c@publisher=\count476
+\c@savedpublisher=\count477
+\c@language=\count478
+\c@savedlanguage=\count479
+\c@origlanguage=\count480
+\c@savedoriglanguage=\count481
+\c@pageref=\count482
+\c@savedpageref=\count483
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -2040,19 +1902,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count483
-\c@textcitetotal=\count484
-\c@textcitemaxnames=\count485
-\c@biburlbigbreakpenalty=\count486
-\c@biburlbreakpenalty=\count487
-\c@biburlnumpenalty=\count488
-\c@biburlucpenalty=\count489
-\c@biburllcpenalty=\count490
+\c@textcitecount=\count484
+\c@textcitetotal=\count485
+\c@textcitemaxnames=\count486
+\c@biburlbigbreakpenalty=\count487
+\c@biburlbreakpenalty=\count488
+\c@biburlnumpenalty=\count489
+\c@biburlucpenalty=\count490
+\c@biburllcpenalty=\count491
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count491
+\c@smartand=\count492
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -2070,8 +1932,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count492
-\c@bbx:relatedtotal=\count493
+\c@bbx:relatedcount=\count493
+\c@bbx:relatedtotal=\count494
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -2081,10 +1943,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count494
-\c@cbx@tempcntb=\count495
-\c@cbx@tempcntc=\count496
-\c@cbx@tempcntd=\count497
+\c@cbx@tempcnta=\count495
+\c@cbx@tempcntb=\count496
+\c@cbx@tempcntc=\count497
+\c@cbx@tempcntd=\count498
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2110,7 +1972,7 @@ Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2023-06-05 L3 programming layer (loader) 
+(biblatex)             2023-10-10 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (c:/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
@@ -2118,13 +1980,13 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count498
+\pgf@intersect@solutions=\count499
 )) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
  (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -2136,25 +1998,25 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
  (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count499
+\c@section@level=\count500
 )
 \@linkdim=\dimen335
-\Hy@linkcounter=\count500
-\Hy@pagecounter=\count501
+\Hy@linkcounter=\count501
+\Hy@pagecounter=\count502
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 ) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count502
+\Hy@SavedSpaceFactor=\count503
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4050.
 Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4050.
@@ -2166,7 +2028,7 @@ Package hyperref Info: Plain pages OFF on input line 4182.
 Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4434.
-\c@Hy@tempcnt=\count503
+\c@Hy@tempcnt=\count504
 LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen336
  (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
@@ -2174,7 +2036,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count504
+\Fld@menulength=\count505
 \Field@Width=\dimen337
 \Fld@charsize=\dimen338
 Package hyperref Info: Hyper figures OFF on input line 6051.
@@ -2188,20 +2050,20 @@ Package hyperref Info: PDF/A mode OFF on input line 6081.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count505
-\c@Item=\count506
+\Hy@abspage=\count506
+\c@Item=\count507
 )
 Package hyperref Info: Driver (autodetected): hluatex.
  (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2023-05-16 v7.00y Hyperref driver for luaTeX
+File: hluatex.def 2023-07-08 v7.01b Hyperref driver for luaTeX
  (c:/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 ) (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count507
-\c@bookmark@seq@number=\count508
+\Fld@listcount=\count508
+\c@bookmark@seq@number=\count509
  (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -2215,7 +2077,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./SPT.aux (./Titel.aux) (c:/texlive/2023/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2023-03-06.tex dehyph-exptl: using a TeX engine with native UTF-8 support. (c:/texlive/2023/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2023-03-06.pat German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2023-03-06 (WL))) (./toc.aux) (./Einleitung.aux) (./Grundlagen.aux) (./Technikstand.aux) (./Simulation.aux) (./Schlussteil.aux) (./appendix.aux))
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.aux (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Titel.aux) (c:/texlive/2023/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2023-03-06.tex dehyph-exptl: using a TeX engine with native UTF-8 support. (c:/texlive/2023/texmf-dist/tex/generic/dehyph-exptl/dehyphn-x-2023-03-06.pat German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2023-03-06 (WL))) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/toc.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Einleitung.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Grundlagen.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Simulation.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.aux))
 \openout1 = SPT.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -2240,16 +2102,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count509
+\scratchcounter=\count510
 \scratchdimen=\dimen339
 \scratchbox=\box83
-\nofMPsegments=\count510
-\nofMParguments=\count511
+\nofMPsegments=\count511
+\nofMParguments=\count512
 \everyMPshowfont=\toks53
-\MPscratchCnt=\count512
+\MPscratchCnt=\count513
 \MPscratchDim=\dimen340
-\MPnumerator=\count513
-\makeMPintoPDFobject=\count514
+\MPnumerator=\count514
+\makeMPintoPDFobject=\count515
 \everyMPtoPDFconversion=\toks54
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2273,7 +2135,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count515
+\c@lstlisting=\count516
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -2375,11 +2237,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = SPT.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'SPT.bbl' found.
- (./SPT.bbl)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.bbl)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
 Package hyperref Info: Link coloring ON on input line 29.
- (./SPT.out) (./SPT.out)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.out) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.out)
 \@outlinefile=\write5
 
 \openout5 = SPT.out
@@ -2395,10 +2257,10 @@ Class scrreprt Info: loading recommended package `bookmark'.
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count516
+\BKM@id=\count517
 ))
 \openout2 = Titel.aux
- (./Titel.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Titel.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: custom
@@ -2469,18 +2331,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusMath-Regular.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 39.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 39.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 39.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 39.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 39.
-LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 39.
  (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -2508,7 +2358,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./HSB.png>])
 \openout2 = toc.aux
- (./toc.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/toc.tex
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2520,7 +2370,7 @@ LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 2.
 Package tocbasic Info: character protrusion at toc deactivated on input line 2.
- (./SPT.toc)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.toc)
 \tf@toc=\write6
 
 \openout6 = SPT.toc
@@ -2532,7 +2382,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 2.
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 3.
- (./SPT.lof)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.lof)
 \tf@lof=\write7
 
 \openout7 = SPT.lof
@@ -2540,7 +2390,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 3.
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 4.
- (./SPT.lot)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.lot)
 \tf@lot=\write8
 
 \openout8 = SPT.lot
@@ -2548,7 +2398,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 4.
 
 ])
 \openout2 = Einleitung.aux
- (./Einleitung.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Einleitung.tex
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -2575,66 +2425,73 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 ]
 \openout2 = Grundlagen.aux
- (./Grundlagen.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Grundlagen.tex
 chapter 2.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 3.
-) [2
+[2
 
 
 
 
 ]
+LaTeX Font Info:    Font shape `TU/AnonymousPro(0)/m/n' will be
+(Font)              scaled to size 11.31226pt on input line 48.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `AnonymousPro' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [3]
 \openout2 = Technikstand.aux
- (./Technikstand.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.tex
 chapter 3.
-) [3
+) [4
 
 
 
 
 ]
 \openout2 = Simulation.aux
- (./Simulation.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Simulation.tex
 chapter 4.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
-[4
+[5
 
 
 
 
 ]
 chapter 5.
-[5
+[6
 
 ]
 chapter 6.
-) [6
+) [7
 
 ]
 \openout2 = Schlussteil.aux
- (./Schlussteil.tex
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.tex
 chapter 7.
-[7
+[8
 
 
 
 
 ]
 chapter 8.
-) [8
+) [9
 
 ]
 \openout2 = appendix.aux
- (./appendix.tex)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.tex)
 
 LaTeX Warning: Empty bibliography on input line 5.
 
-(./SPT.aux (./Titel.aux) (./toc.aux) (./Einleitung.aux) (./Grundlagen.aux) (./Technikstand.aux) (./Simulation.aux) (./Schlussteil.aux) (./appendix.aux))
+(c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.aux (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Titel.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/toc.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Einleitung.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Grundlagen.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Simulation.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.aux))
  ***********
-LaTeX2e <2023-06-01>
-L3 programming layer <2023-06-05>
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
  ***********
 Package rerunfilecheck Info: File `SPT.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -2644,19 +2501,19 @@ Package logreq Info: Writing requests to 'SPT.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 61707 strings out of 478043
+ 61938 strings out of 476835
  100000,3417909 words of node,token memory allocated
- 778 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 26 attribute, 79 glue_spec, 15 attribute_list, 7 write nodes
-   avail lists: 1:3,2:1493,3:359,4:328,5:136,6:90,7:1695,8:1,9:406,10:4,11:180,12:1
- 80717 multiletter control sequences out of 65536+600000
- 127 fonts using 33603119 bytes
- 130i,9n,139p,10943b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSans-Bold.otf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bold.ttf>
-Output written on SPT.pdf (12 pages, 40598 bytes).
+ 783 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 26 attribute, 80 glue_spec, 15 attribute_list, 7 write nodes
+   avail lists: 1:3,2:1493,3:359,4:328,5:328,6:90,7:5703,8:5,9:406,10:17,11:762,12:1
+ 82149 multiletter control sequences out of 65536+600000
+ 128 fonts using 33700515 bytes
+ 130i,9n,139p,10942b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/truetype/public/anonymouspro/AnonymousPro-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSans-Bold.otf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bold.ttf>
+Output written on SPT.pdf (13 pages, 61870 bytes).
 
-PDF statistics: 229 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 131072)
+PDF statistics: 254 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 131072)
  192 words of extra memory for PDF output out of 10000 (max. 100000000)
 

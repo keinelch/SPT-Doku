@@ -3,3 +3,52 @@
 \section{Stabilität in Inselnetzen}
 
 \section{Speichertechnologien in Inselnetzen}
+
+\paragraph{Wozu Speicher?}
+Für diese Projektarbeit soll ein autarkes Inselnetz mit regenerativer Energieeerzeugung 
+modelliert und simuliert werden.
+Aus verschiedenen Gründen, welche im Folgenden genauer erläutert werden sollen, ist der Einsatz von
+Speichertechnologien für die Umsetzung eines solchen Inselnetzes zwingend notwendig.
+
+Grundlegend ist eine lückenlose Energieversorgung innerhalb eines Netzes nur möglich wenn nahezu gleich viel Energie in das Netz
+eingespeist und abgenommen wird.
+Entscheidende Parameter für die Regelung der Energieerzeugung sind dabei vor Allem die Netzfrequenz 
+und -spannung.
+Das deutsche Verbundnetz ist dafür in vier Regelzonen unterteilt, welche widerrum in verschiedene
+Bilanzkreise unterteilt sind.
+Innerhalb dieser Bilanzkreise wird anhand von Vorraussagen für den nächsten Tag versucht
+eingespeiste und entnommene Leistung auszuregeln.
+Durch den schwankenden Leistungsbedarf sind Abweichungen hier allerdings die Regel.
+Bei der Betrachtung eines regenerativen Inselnetzes kommt die volatile Natur von regenerativen Energieerzeugern
+als weiterer Faktor hinzu und erschwert eine korrekte Vorraussage enorm.
+Diese Abweichungen der tatsächlich benötigten Leistung von der bereitgestellten führen zu Frequenzschwankungen
+welche sich wiederrum negativ auf die Netzstabilität auswirken.
+Zum Ausgleich dieser Schwankungen muss Regelernegie zur Verfügung gestellt werden.
+
+Die benötigte Energie ist dabei unterteilt in Momentanreserve, Primärreserve, Sekundärreserve 
+und Tertiärreserve.
+Die Momentanreserve, welche geringe Frequenzabweichung direkt ausgleichen soll, wird im deutschen Verbundnetz
+durch die Schwungmasse der Kraftwerks-Synchronmaschinen bereit gestellt.
+Die Primärreserve hingegen greift erst ab einer Abweichung von $20 mHz$ und musss nach spätestens 30 Sekunden
+sowie für mindestens 15 Minuten vollständig zur Verfügung stehen.
+Hierfür werden heute schon zunehmend Batteriespeicher eingesetzt.
+Zusätzlich wird nach 30 Sekunden die Sekundärregelleistung bereit gestellt, welche für eine Stunde verfügbar sein muss.
+Nach 15 Minuten wird diese dann von der Tertiärregelreserve abgelöst, welche ebenfalls fürr eine Stunde verfügbar sein muss.
+Die beiden letzten Regeleneergie-Kategorien werden in aller Regel von Kraftwerken in Teillast oder Kraftwerken mit kurzen Anfahrzeiten
+erzeugt.
+Zuletzt werden einzelne Netzabschnitte vom Netz getrennt um einen Zusammenbruch des Bilanzkreises zu vermeiden.
+Dieses Vorgehen bleibt allerdings die äußerste Maßnahme und soll in aller Regel vermieden werden.
+
+Für ein Inselnetz besteht nicht die Möglichkeit Teilnetze abzutrennen. 
+Im schlimmsten Fall müssen einzelne Verbraucher und Erzeuger vom Netz getrennt werden um einen stabilen Betrieb zu sichern.
+Um das weitestgehend zu vermeiden, ist eine Überdimensionierung von Erzeugern und Speichern meist das Mittel der Wahl.
+Große Speicher zur Primärreserve bilden dabei einen wichtigen Grundpfeiler, wobei gerade Batteriespeicher 
+auf Grund ihres schnellen Regelverhaltens in Frage kommen.
+
+Zusätzlich sollen hier neben der Regelreserve der Vollständigkeit halber die Regelleistungsprodukte \texttt{Enhanced Frequency Response}
+(EFR) und \texttt{Virtuelle Schwungmasse} (VSM) erwähnt werden.
+Diese sind zwar noch nicht in den deutschen Markt integriert, könnten aber in der Zukunft eine wichtige Rolle spielen.
+
+\paragraph{Rahmenbedingung und Bestimmungen}
+
+\paragraph{Betriebsstrategien zu Batteriespeichern}
