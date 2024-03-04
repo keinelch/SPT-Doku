@@ -25,11 +25,17 @@ Diese Abweichungen der tatsächlich benötigten Leistung von der bereitgestellte
 welche sich wiederrum negativ auf die Netzstabilität auswirken.
 Zum Ausgleich dieser Schwankungen muss Regelernegie zur Verfügung gestellt werden.
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=6cm]{Abbildungen/Sollfrequenz.png}
+    \caption{Frequenzschwankungen durch Ungleichgewicht von erzeugter und verbrauchter Leistung~\parencite{cronenberg_beschreibung_nodate}}\label{Gleichgewicht}
+\end{figure}
+
 Die benötigte Energie ist dabei unterteilt in Momentanreserve, Primärreserve, Sekundärreserve 
 und Tertiärreserve.
 Die Momentanreserve, welche geringe Frequenzabweichung direkt ausgleichen soll, wird im deutschen Verbundnetz
 durch die Schwungmasse der Kraftwerks-Synchronmaschinen bereit gestellt.
-Die Primärreserve hingegen greift erst ab einer Abweichung von $20 mHz$ und musss nach spätestens 30 Sekunden
+Die Primärreserve hingegen greift erst ab einer Abweichung von $20\ mHz$ und musss nach spätestens 30 Sekunden
 sowie für mindestens 15 Minuten vollständig zur Verfügung stehen.
 Hierfür werden heute schon zunehmend Batteriespeicher eingesetzt.
 Zusätzlich wird nach 30 Sekunden die Sekundärregelleistung bereit gestellt, welche für eine Stunde verfügbar sein muss.
@@ -43,12 +49,62 @@ Für ein Inselnetz besteht nicht die Möglichkeit Teilnetze abzutrennen.
 Im schlimmsten Fall müssen einzelne Verbraucher und Erzeuger vom Netz getrennt werden um einen stabilen Betrieb zu sichern.
 Um das weitestgehend zu vermeiden, ist eine Überdimensionierung von Erzeugern und Speichern meist das Mittel der Wahl.
 Große Speicher zur Primärreserve bilden dabei einen wichtigen Grundpfeiler, wobei gerade Batteriespeicher 
-auf Grund ihres schnellen Regelverhaltens in Frage kommen.
+auf Grund ihres schnellen Regelverhaltens in Frage kommen~\parencite{Itschner}.
 
-Zusätzlich sollen hier neben der Regelreserve der Vollständigkeit halber die Regelleistungsprodukte \texttt{Enhanced Frequency Response}
+Zusätzlich sollen hier neben der klassischen Regelreserve der Vollständigkeit halber die Regelleistungsprodukte \texttt{Enhanced Frequency Response}
 (EFR) und \texttt{Virtuelle Schwungmasse} (VSM) erwähnt werden.
 Diese sind zwar noch nicht in den deutschen Markt integriert, könnten aber in der Zukunft eine wichtige Rolle spielen.
 
+EFR setzt dabei schon vor der Primärreserve ein und stellt die volle Regelenergie ab spätestens 1 Sekunde bereit.
+Damit füllt EFR die Lücke die durch die fehlenden großen Synchronmaschinen entsteht und wird z.B. bereits vom 
+größten britischen Netzbetreiber eingesetzt.
+Durch die hohen Anforderungen an die Einschaltzeiten bieten sich auch für diesen Einsatz vor allem
+Lithium-Ionen-Batterien an~\parencite{mantar_gundogdu_battery_2018}.
+
+Beim Prinzip der VSM wird versucht die Frequenzstabilität zu verbessern indem Speicher an das Netz angeschlossen werden
+die im Wesentlichen das Trägheitsverhalten von mechanischen Schwungmassen in Generatoren imitieren.
+Gerade kleiner Inselnetzen welche vor allem durch regenrative Energien betrieben werden könnten hierdurch profitieren.
+Auf Grund des kontinuierlichen Energieaustausches mit dem Netz bieten sich für die Umsetzung von VSM-Anlagen vor allem
+Speicher mit hoher Lebensdauer und Zyklenzahl an~\parencite{boxleitner_virtuelle_2009}.
+
 \paragraph{Rahmenbedingung und Bestimmungen}
 
+In Deutschland sind die Übertragungsnetzbetreiber dafür verantwortlich die Frequenz innerhalb ihrer Regelzone auf möglichst
+50 Hz zuhalten.
+Dafür stehen Ihnen die oben genannten Regelreserveprodukte zur Verfügung, welche von unterschiedlichen Teilnehmern
+des Regelreservemartkes bereit gestellt werden können.
+Die verschiedenen Übertragungsnetzbetreiber kooperieren dabei im Netzregelverbund, welcher ein Konzept darstellt,
+die Vorhaltung von Regelreserve technisch und wirtschaftlich zu optimieren.
+In Zukunft ist ein solches, stark koordiniertes Vorgehen auch auf zentraleuropäischer Ebene geplant.
+
+Im Folgenden sollen die Anforderungen und Bestimmungen zu den einzelnen in Deutschland zugelassenen Regelreserveprodukten 
+zusammengefasst werden.
+
+\begin{itemize}
+    \item Primärreserve oder \texttt{Frequency Containment Reserve} (FCR) ist darauf ausgelegt die Netzfrequenz möglichst 
+schnell zu stabilisieren. Dafür wird die FCR proportional zur Abweichung der Frequenz von ihrem Sollwert geregelt.
+Sie wird automatisch bei Abweichungen über 10 mHz aktiviert und soll spätestens nach 30 Sekunden vollständig zur Verfügung stehen.
+    \item Sekundärreserve oder \texttt{automatic Frequency Restoration Reserves} (aFRR) löst die Primärreserve ab indem sie
+die Frequenzabweichung vollständig ausgleicht. Die aFRR ist dafür als Proportional-Integral-Regelung umgesetzt und 
+ist nicht nur abhängig von der Netzfrequenzabweichung sondern zusätzlich vom Leistungsaustausch zwischen den Bilanzkreisen.
+    \item Tertiärreserve oder \texttt{manual Frequency Restoration Reserve} (mFRR) löst die aFRR bei länger anhaltenden Störungen ab.
+Sie ist daher nicht automatisch aktiviert und muss erst innerhalb von 15 Minuten vollständig aktivierbar sein.
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=11cm]{Abbildungen/_Flussdiagramm (1).png}
+    \caption{Überblick über die verschiedenen Regelreserveprodukte aus~\parencite{cronenberg_beschreibung_nodate}}\label{Fluss}
+\end{figure}
+
 \paragraph{Betriebsstrategien zu Batteriespeichern}
+
+Für die Modelle und Simulationen in dieser Projektarbeit werden von den, im letzten Paragraphen beschriebenen Regelreserveprodukten
+im Wesentlich zwei genauer betrachtet.
+Einerseits die Primärreserve oder FCR und andererseits die EFR, die zwar bisher von deutschen Übertragungsnetzbetreibern nicht genutzt wird
+aber gerade für ein Inselnetz wie das hier geplante, eindeutige Vorteile bietet.
+
+Betrachtet man die Anforderungen an diese beide Methoden der Regelleistungsbereitstellung, so kommt vor allem
+Batteriespeicher und insbesondere Lithium-Ionen-Batterien für eine Auswahl der Speichertechnologien in Frage.
+Im Folgenden sollen verschiedene Methoden zur Umsetzung von FCR- und EFR-Speichern mit Hilfe von Batteriespeichern 
+diskutiert und vorgestellt werden.

@@ -16,5 +16,142 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{cronenberg_beschreibung_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a8a24e803be4cea53eead29c87bd8e1a}{%
+           family={Cronenberg},
+           familyi={C\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \strng{fullhash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \strng{bibnamehash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \strng{authorbibnamehash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \strng{authornamehash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \strng{authorfullhash}{a8a24e803be4cea53eead29c87bd8e1a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{german}
+      \field{title}{Beschreibung von Konzepten des Systemausgleichs und der Regelreservemärkte in Deutschland}
+      \verb{file}
+      \verb Cronenberg - Beschreibung von Konzepten des Systemausgleichs un.pdf:C\:\\Users\\user\\Zotero\\storage\\ZKQM8KNV\\Cronenberg - Beschreibung von Konzepten des Systemausgleichs un.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Itschner}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=c0f9e839e59e6b01283923c350d87c88}{%
+           family={Itschner},
+           familyi={I\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Karlsruher Institut für Technologie}%
+      }
+      \strng{namehash}{c0f9e839e59e6b01283923c350d87c88}
+      \strng{fullhash}{c0f9e839e59e6b01283923c350d87c88}
+      \strng{bibnamehash}{c0f9e839e59e6b01283923c350d87c88}
+      \strng{authorbibnamehash}{c0f9e839e59e6b01283923c350d87c88}
+      \strng{authornamehash}{c0f9e839e59e6b01283923c350d87c88}
+      \strng{authorfullhash}{c0f9e839e59e6b01283923c350d87c88}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entwicklung von Modellen zur speichergestützten Versorgung mit erneuerbaren Energien in Inselnetzen}
+      \field{type}{phdthesis}
+      \field{year}{2020}
+    \endentry
+    \entry{mantar_gundogdu_battery_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9b2f741d213e5dff094dd672d9572725}{%
+           family={Mantar\bibnamedelima Gundogdu},
+           familyi={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Burcu},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c0ea051f25c606081097e38172db9d91}{%
+           family={Nejad},
+           familyi={N\bibinitperiod},
+           given={Shahab},
+           giveni={S\bibinitperiod}}}%
+        {{hash=19af46c93d1bb20853c167a53f75e3c3}{%
+           family={Gladwin},
+           familyi={G\bibinitperiod},
+           given={Daniel\bibnamedelima Thomas},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=27c5532dc19070db2053d2588a0bfd0c}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Martin\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=336b8f88edf9b58a0b17789d8cf0f859}{%
+           family={Stone},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2ca577c5490d8d865462bca9dbb8b79}
+      \strng{fullhash}{0f612b24e9fb0a3bb52b292090355707}
+      \strng{bibnamehash}{0f612b24e9fb0a3bb52b292090355707}
+      \strng{authorbibnamehash}{0f612b24e9fb0a3bb52b292090355707}
+      \strng{authornamehash}{f2ca577c5490d8d865462bca9dbb8b79}
+      \strng{authorfullhash}{0f612b24e9fb0a3bb52b292090355707}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes a control algorithm for a battery energy storage system ({BESS}) to deliver a charge/discharge power output in response to changes in the grid frequency constrained by the National Grid Electricity Transmission ({NGET})—the primary electricity transmission network operator in the U.K.—while managing the state of charge of the {BESS} to optimize the availability of the system. Furthermore, this paper investigates using the {BESS} in order to maximize triad avoidance beneﬁt revenues while layering other services. Simulation using a 2 {MW}/1 {MWh} lithium–titanate {BESS} validated model is carried out to explore possible scenarios using the proposed algorithms. Finally, experimental results of the 2 {MW}/1 {MWh} Willenhall Energy Storage System verify the performance of the proposed algorithms.}
+      \field{journaltitle}{{IEEE} Transactions on Industrial Electronics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{{IEEE} Trans. Ind. Electron.}
+      \field{title}{A Battery Energy Management Strategy for U.K. Enhanced Frequency Response and Triad Avoidance}
+      \field{volume}{65}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9509\bibrangedash 9517}
+      \range{pages}{9}
+    \endentry
+    \entry{boxleitner_virtuelle_2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1d8fe34a860d57f4a9e639ec5ca8dcf2}{%
+           family={Boxleitner},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=81c3ced0b87168fc9af5b7ba46766924}{%
+           family={Brauner},
+           familyi={B\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e47eca591e4951290e138de0973db360}
+      \strng{fullhash}{e47eca591e4951290e138de0973db360}
+      \strng{bibnamehash}{e47eca591e4951290e138de0973db360}
+      \strng{authorbibnamehash}{e47eca591e4951290e138de0973db360}
+      \strng{authornamehash}{e47eca591e4951290e138de0973db360}
+      \strng{authorfullhash}{e47eca591e4951290e138de0973db360}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Die Versorgung mit elektrischer Energie ist für viele Menschen heute zur Selbstverständlichkeit geworden. Jedoch entstehen, durch den immer größer werdenden Verbrauch an elektrischer Energie, die Einbindung von umrichtergekoppelten Erzeugungsanlagen, sowie die Anbindung von Anlagen mit dargebotsabhängiger Einspeisung, Probleme, welche die Qualität der Netzdienstleistung beeinflussen. In traditionellen Erzeugungsanlagen wie etwa Wasserkraftwerken wird die Trägheit der Turbinen-Generator-Anordnung ausgenutzt, um die Frequenzelastizität zu verkleinern. Viele neue, regenerative Systeme zur Erzeugung von elektrischer Energie (z.B. {PhotovoltaikSysteme}, Windenergieanlagen, etc.) werden mit Hilfe von leistungselektronischen Umrichterschaltungen mit dem Netz gekoppelt und bieten so keine Möglichkeit, mechanische Schwungmassen einzusetzen. Dieses Paper beschäftigt sich mit einem Konzept, das eine funktionale Erweiterung der leistungselektronisch angebundenen Erzeugungsanlagen darstellt, damit auch diese ihren Beitrag zur Frequenzstabilisierung leisten. Aufgrund des mechanischen Pendants werden diese Systeme als „Virtuelle Schwungmassen“ bezeichnet.}
+      \field{langid}{german}
+      \field{title}{{VIRTUELLE} {SCHWUNGMASSE}}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Boxleitner und Brauner - 2009 - VIRTUELLE SCHWUNGMASSE.pdf:C\:\\Users\\user\\Zotero\\storage\\8TKK2XA9\\Boxleitner und Brauner - 2009 - VIRTUELLE SCHWUNGMASSE.pdf:application/pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.21)  3 MAR 2024 18:05
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.10.21)  4 MAR 2024 19:56
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT
@@ -2382,7 +2382,12 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 2.
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 3.
- (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.lof)
+ (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.lof
+Overfull \hbox (2.26714pt too wide) in paragraph at lines 4--4
+ [][] [][][]\TU/LibertinusSerif(0)/m/n/12 Fre-quenz-schwan-kun-gen durch Un-gleich-ge-wicht von er-zeug-ter und ver-brauch- 
+ []
+
+)
 \tf@lof=\write7
 
 \openout7 = SPT.lof
@@ -2429,23 +2434,34 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 chapter 2.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 3.
+<Abbildungen/Sollfrequenz.png, id=115, 749.04843pt x 375.65344pt>
+File: Abbildungen/Sollfrequenz.png Graphic file (type png)
+<use Abbildungen/Sollfrequenz.png>
+Package luatex.def Info: Abbildungen/Sollfrequenz.png  used on input line 30.
+(luatex.def)             Requested size: 170.71652pt x 85.61317pt.
 [2
 
 
 
 
-]
+<./Abbildungen/Sollfrequenz.png>]
 LaTeX Font Info:    Font shape `TU/AnonymousPro(0)/m/n' will be
-(Font)              scaled to size 11.31226pt on input line 48.
+(Font)              scaled to size 11.31226pt on input line 54.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `AnonymousPro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [3]
+ [3]
+<Abbildungen/_Flussdiagramm (1).png, id=140, 1767.60374pt x 1251.67625pt>
+File: Abbildungen/_Flussdiagramm (1).png Graphic file (type png)
+<use Abbildungen/_Flussdiagramm (1).png>
+Package luatex.def Info: Abbildungen/_Flussdiagramm (1).png  used on input line 96.
+(luatex.def)             Requested size: 312.9803pt x 221.62498pt.
+ [4<./Abbildungen/_Flussdiagramm (1).png>]) [5]
 \openout2 = Technikstand.aux
  (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.tex
 chapter 3.
-) [4
+) [6
 
 
 
@@ -2456,39 +2472,44 @@ chapter 3.
 chapter 4.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
-[5
+[7
 
 
 
 
 ]
 chapter 5.
-[6
+[8
 
 ]
 chapter 6.
-) [7
+) [9
 
 ]
 \openout2 = Schlussteil.aux
  (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.tex
 chapter 7.
-[8
+[10
 
 
 
 
 ]
 chapter 8.
-) [9
+) [11
 
 ]
 \openout2 = appendix.aux
  (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.tex)
+chapter without number
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 5.
+[1
 
-LaTeX Warning: Empty bibliography on input line 5.
 
-(c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.aux (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Titel.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/toc.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Einleitung.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Grundlagen.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Simulation.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.aux))
+
+
+] (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/SPT.aux (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Titel.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/toc.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Einleitung.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Grundlagen.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Technikstand.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Simulation.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/Schlussteil.aux) (c:/Users/user/OneDrive/Dokumente/GitHub/SPT-Doku/appendix.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -2501,19 +2522,19 @@ Package logreq Info: Writing requests to 'SPT.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 61938 strings out of 476835
+ 62213 strings out of 476835
  100000,3417909 words of node,token memory allocated
- 783 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 26 attribute, 80 glue_spec, 15 attribute_list, 7 write nodes
-   avail lists: 1:3,2:1493,3:359,4:328,5:328,6:90,7:5703,8:5,9:406,10:17,11:762,12:1
- 82149 multiletter control sequences out of 65536+600000
- 128 fonts using 33700515 bytes
- 130i,9n,139p,10942b,2473s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/truetype/public/anonymouspro/AnonymousPro-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSans-Bold.otf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bold.ttf>
-Output written on SPT.pdf (13 pages, 61870 bytes).
+ 797 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 5 kern, 1 penalty, 1 margin_kern, 4 glyph, 22 attribute, 84 glue_spec, 13 attribute_list, 4 write, 1 pdf_action nodes
+   avail lists: 1:3,2:1556,3:379,4:343,5:467,6:93,7:7652,8:7,9:420,10:19,11:920,12:1
+ 82408 multiletter control sequences out of 65536+600000
+ 129 fonts using 34085803 bytes
+ 130i,9n,139p,10942b,3185s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Italic.otf><c:/texlive/2023/texmf-dist/fonts/truetype/public/anonymouspro/AnonymousPro-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusMath-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSerif-Regular.otf><c:/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/LibertinusSans-Bold.otf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bold.ttf>
+Output written on SPT.pdf (16 pages, 235695 bytes).
 
-PDF statistics: 254 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 131072)
- 192 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 305 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 131072)
+ 200 words of extra memory for PDF output out of 10000 (max. 100000000)
 
