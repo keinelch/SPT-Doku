@@ -3,6 +3,20 @@
 \usepackage{siunitx}
 \usepackage{pgf-spectra}
 \usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+  \pgfplotsset{plot coordinates/math parser=false}
+  \newlength\figureheight
+  \newlength\figurewidth
+
+%% the following commands are needed for some matlab2tikz features
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{arrows.meta}
+\usepgfplotslibrary{patchplots}
+\usepackage{grffile}
+\usepackage{amsmath}
+\usepackage{matlab-prettifier}
+
+\usepackage{float}
 
 \usepackage{graphicx}
 \usepackage{subcaption}
@@ -24,6 +38,8 @@
 
 % wird für die Nutzung der Hausschrift benötigt
 \usepackage{fontspec}
+\usepackage[font=scriptsize]{caption}
+\usepackage{mwe}
 
 % Standardpaket für Lokalisation, siehe Option "ngerman" oben
 \usepackage{babel}
@@ -120,7 +136,7 @@
 % Metadaten des PDF-Dokumentes; setzen Sie hier Ihren eigenen Namen sowie den
 % Titel Ihrer Arbeit ein
 \hypersetup{pdfauthor={Darius Daub}}
-\hypersetup{pdftitle={Leistungssteuerung mit PWM}}
+\hypersetup{pdftitle={FOC einer ASM}}
 
 
 

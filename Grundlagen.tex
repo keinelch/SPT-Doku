@@ -4,7 +4,7 @@
 
 \section{Speichertechnologien in Inselnetzen}
 
-\paragraph{Wozu Speicher?}
+\subsection{Gründe für den Einsatz von Speichern in Inselnetzen}
 Für diese Projektarbeit soll ein autarkes Inselnetz mit regenerativer Energieeerzeugung 
 modelliert und simuliert werden.
 Aus verschiedenen Gründen, welche im Folgenden genauer erläutert werden sollen, ist der Einsatz von
@@ -67,7 +67,7 @@ Gerade kleiner Inselnetzen welche vor allem durch regenrative Energien betrieben
 Auf Grund des kontinuierlichen Energieaustausches mit dem Netz bieten sich für die Umsetzung von VSM-Anlagen vor allem
 Speicher mit hoher Lebensdauer und Zyklenzahl an~\parencite{boxleitner_virtuelle_2009}.
 
-\paragraph{Rahmenbedingung und Bestimmungen}
+\subsection{Rahmenbedingung und Bestimmungen}
 
 In Deutschland sind die Übertragungsnetzbetreiber dafür verantwortlich die Frequenz innerhalb ihrer Regelzone auf möglichst
 50 Hz zuhalten.
@@ -97,14 +97,72 @@ Sie ist daher nicht automatisch aktiviert und muss erst innerhalb von 15 Minuten
     \caption{Überblick über die verschiedenen Regelreserveprodukte aus~\parencite{cronenberg_beschreibung_nodate}}\label{Fluss}
 \end{figure}
 
-\paragraph{Betriebsstrategien zu Batteriespeichern}
+\subsection{Betriebsstrategien zu Batteriespeichern}\label{Betriebsstrategien}
 
 Für die Modelle und Simulationen in dieser Projektarbeit werden von den, im letzten Paragraphen beschriebenen Regelreserveprodukten
 im Wesentlich zwei genauer betrachtet.
 Einerseits die Primärreserve oder FCR und andererseits die EFR, die zwar bisher von deutschen Übertragungsnetzbetreibern nicht genutzt wird
 aber gerade für ein Inselnetz wie das hier geplante, eindeutige Vorteile bietet.
 
-Betrachtet man die Anforderungen an diese beide Methoden der Regelleistungsbereitstellung, so kommt vor allem
+Betrachtet man die Anforderungen an diese beide Methoden der Regelleistungsbereitstellung, so kommen vor allem
 Batteriespeicher und insbesondere Lithium-Ionen-Batterien für eine Auswahl der Speichertechnologien in Frage.
 Im Folgenden sollen verschiedene Methoden zur Umsetzung von FCR- und EFR-Speichern mit Hilfe von Batteriespeichern 
 diskutiert und vorgestellt werden.
+
+Beim Betrieb von Batteriespeichern zur Bereistellung von Regelleistung ist der limitierende Faktor der Kapazitäten zu bedenken.
+Durch den so genannten State of Charge (SOC) kann ausgedrückt werden, wie viel Prozent ihrer Kapazität einer Batterie noch zur Verfügung stehen.
+Um möglichst zu jedem Zeitpunkt die Anforderungen an die PCR oder EFR erfüllen zu können ist eine intelligente
+SOC-Steuerung daher unerlässlich.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=8cm]{Abbildungen/DroopControl.png}
+    \caption{Vorgabe der Leistungskurve für PCR-Bereitstellung aus~\parencite[Kap. 3]{noauthor_soc_nodate}}\label{Droop}
+\end{figure}
+
+Abbildung~\ref{Droop} zeigt den vorgegebenen Verlauf der Leistungsbereitstellung für PCR-Produkte.
+Im letzten Paragraphen wurde bereits beschrieben, dass hierbei ein proportionaler Verlauf zur Frequenzabweichung 
+gefordert ist, sobald die Abweichung einen gewissen Grenzwert überschreitet.
+Bei einer reinen Umsetzung dieser Kurve mit Hilfe von Batterien, würde unweigerlich, ein Ungleichgewicht von 
+Frequenzerhöhungen und Frequenzeinbrüchen dazu führen, dass die Batteriespeicher irgendwann keine Leistung mehr
+zur Verfügung stellen können.
+
+Um das zu vermeiden wird in~\parencite[]{noauthor_soc_nodate} unter anderem eine sogenannte Dead band strategy beschrieben.
+Der Grundgedanke sieht vor, dass ein Ziel-SOC von z.B. 50 \% festgelegt wird und anschließend während Phasen mit 
+Frequenzabweichung innerhalb der Grenzwerte Leistung ausgetauscht werden kann, um den optimalen SOC zu erreichen.
+Die maximale Leistung die dabei genutzt werden darf, ist in Deutschland beschränkt.
+So darf über 50 Hz keine Leistungsabgabe mehr erfolgen und unter 50 Hz keine Leistungsaufnahme,
+sofern allerdings innerhalb des Totbands dem linearen Verlauf der Leistungskurve gefolgt wird,
+ist ein Leistungsaustausch zulässig~\parencite[]{marchgraber_modellierung_2019}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=8cm]{Abbildungen/DBFlow.png}
+    \caption{Flussdiagramm zur Deadband-Strategie aus~\parencite[]{noauthor_soc_nodate}}\label{FlowPCR}
+\end{figure}
+
+Abbildung~\ref{FlowPCR} zeigt ein Flussdiagramm zur Ausnutzung des Totbands.
+Ein Nachteil dieser Methode bleibt allerdings, dass nur bei geringen Abweichungen der Netzfrequenz und nur mit begrenzter 
+Geschwindigkeit der Ziel-SOC hergestellt werden kann. 
+Eine Überdimensionierung des Speichers, um auch bei längeren Störungen Regelleistung bereitstellen zu können, bleibt
+also erforderlich.
+Für das dreiphasige Modell dieser Projektarbeit soll diese Methode umgesetzt werden. 
+Das Vorgehen dafür wird in Kapitel~\ref{Speicher} erläutert.
+
+Ein weiterer Ansatz ist die Festlegung von Leistungssollwerten in Abhängigkeit vom aktuellen SOC.
+Für dieses Vorgehen wird die Leistungskurve der Droop-Control um den Leistungssollwert $\Delta P_{SOC}$ nach oben
+oder nach unten erweitert je nachdem ob der SOC unter oder über dem festgelegten Zielwert liegt.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=7cm]{Abbildungen/DroopErweitert.png}
+    \caption{SOC-Wiederherstellung mit Leistungssollwerten aus \parencite[]{noauthor_soc_nodate}}\label{Droopplus}
+\end{figure}
+
+Abbildung \ref{Droopplus} zeigt den resultierenden Leistungsverlauf.
+Dabei muss die maximale Leistungsaufnahme bzw. -abgabe der Batterie berücksichtigt werden und die Vorgaben der
+Übertragungsnetzbetreiber müssen eingehalten werden.
+Ein sehr ähnlicher Ansatz wird auch in \parencite[]{mantar_gundogdu_battery_2018} für den EFR-Einsatz genutzt.
+Dort wird allerdings noch einmal hervorgehoben, dass ein starrer Ziel-SOC von z.B. exakt 50 \% die 
+Anzahl der Lade- bzw. Entladezyklen erhöht und sich damit negativ auf die Lebensdauer der Batterien auswirkt.
+Für die praktische Umsetzung sollte also ein SOC-Bereich von z.B. 45 \% bis 55 \% angestrebt werden.
